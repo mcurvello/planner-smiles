@@ -52,7 +52,7 @@
             <p>Planeje suas viagens com antecedência</p>
             <span>Você pode planejar mesmo antes de decidir seu destino e ainda ganhar recompensas!</span>
             <button id="botao" type="button" >Conheça o Planner Smiles</button>
-            <button id="botaoLogin" type="button" >
+            <button id="botaoLogin"  data-toggle="modal" data-target="#loginModal" >
                 LOGIN
                 <img src="./img/Vector 12.png" alt="">
             </button>
