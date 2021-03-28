@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,15 +7,15 @@
     font-size: 14px;
 }
 
-:root{
-    --white:#fff;
-    --background:#fcfcfc;
+:root {
+    --white: #fff;
+    --background: #fcfcfc;
     --text: #868686;
     --text-highlight: #eb7f02;
     --orange: #EB7F02;
 }
 
-body{
+body {
     width: 100%;
     min-width: 100vh;
     background: var(--background);
@@ -26,84 +26,81 @@ body{
     justify-content: center;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: start;
     width: 100%;
     height: 100vh;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
-.containerA{
+.containerA {
     display: flex;
     align-items: center;
     justify-content: left;
     width: 50%;
     background-size: cover;
+    margin-left: 0%;
 }
 
-.containerA p{
+.containerA p {
     position: absolute;
     width: 515px;
     height: 106px;
-    left: 100px;
-    top: 232px;
-
+    left: 20px;
+    top: 200px;
     font-family: Prompt;
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
     line-height: 106.2%;
-
     color: var(--white);
 }
 
-.containerA span{
+.containerA span {
     position: absolute;
     width: 518px;
     height: 46px;
-    left: 100px;
-    top: 349px;
-
+    left: 20px;
+    top: 319px;
     font-family: Prompt;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 116.2%;
-
     color: var(--white);
 }
 
-.container h6{
+.container h6 {
     position: absolute;
     width: 443px;
     height: 24px;
-    left: 100px;
+    left: 150px;
     bottom: 23px;
-
     font-family: Prompt;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-
     color: rgba(255, 255, 255, 0.45);
 }
 
-#background{
+#background {
     height: 100vh;
     width: 100vw;
 }
 
-#logo{
+#logo {
     position: absolute;
     width: 120.86px;
     height: 81px;
-    left: 90px;
+    left: 20px;
     top: 69px;
 }
 
-#botao{
+#botao {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -113,20 +110,17 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-
     position: absolute;
     width: 314px;
     height: 56px;
-    left: 101px;
-    top: 419px;
-
+    left: 20px;
+    top: 450px;
     background: var(--orange);
     border-radius: 7px;
-
     cursor: pointer;
 }
 
-#botaoLogin{
+#botaoLogin {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -140,20 +134,18 @@ body{
     position: absolute;
     width: 150px;
     height: 44px;
-    right: 718px;
-    top: 650px;
-
+    right: 784px;
+    top: 545px;
     background: var(--orange);
     border-radius: 34px 0 0 34px;
-
     cursor: pointer;
 }
 
-#botaoLogin img{
+#botaoLogin img {
     margin-left: 10px
 }
 
-.containerB{
+.containerB {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -164,7 +156,7 @@ body{
     font: 400 1rem "Prompt", sans-serif;
 }
 
-#divMenu{
+#divMenu {
     display: flex;
     align-items: center;
     align-content: center;
@@ -175,28 +167,28 @@ body{
     top: 30px;
 }
 
-#menu{
+#menu {
     display: inline-block;
 }
 
 #menu ul {
-    list-style: none;  
+    list-style: none;
 }
 
-#menu ul li{
+#menu ul li {
     display: inline;
 }
 
-#divMenu div{
+#divMenu div {
     display: flex;
     align-items: center;
 }
 
-#divMenu img{
+#divMenu img {
     margin-left: 10px;
 }
 
-#divPesquisar{
+#divPesquisar {
     position: absolute;
     width: 519px;
     height: 56px;
@@ -205,31 +197,31 @@ body{
     border-radius: 63px;
 }
 
-#divPesquisar img{
+#divPesquisar img {
     float: left;
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 16px;
 }
 
-#txtPesquisar{
+#txtPesquisar {
     float: left;
     width: 300px;
     height: 30px;
     left: 809px;
     top: 137px;
-    background-color:transparent;
+    background-color: transparent;
     margin-top: 12px;
     margin-left: 19px;
     font-style: normal;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 30px;
-    border:none;
+    border: none;
     color: rgba(134, 134, 134, 0.5);
 }
 
-#divDestino{
+#divDestino {
     position: absolute;
     height: 270px;
     width: 720px;
@@ -237,33 +229,32 @@ body{
     top: 200px;
 }
 
-#tituloDestino{
+#tituloDestino {
     display: inline-flex;
     align-items: center;
 }
 
-#divDestino p{
+#divDestino p {
     font-family: Prompt;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
-
     color: var(--text);
 }
 
-#divDestino img{
+#divDestino img {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#divDestino span{
+#divDestino span {
     font-weight: 600;
     font-size: 10px;
     line-height: 15px;
 }
 
-#divHospedagem{
+#divHospedagem {
     position: absolute;
     width: 745px;
     height: 270px;
@@ -271,39 +262,35 @@ body{
     top: 500px;
 }
 
-#divHospedagem div{
+#divHospedagem div {
     display: inline-flex;
     align-items: center;
 }
 
-#divHospedagem p{
+#divHospedagem p {
     font-family: Prompt;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
-
     color: var(--text);
 }
 
-#divHospedagem img{
+#divHospedagem img {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#divHospedagem span{
+#divHospedagem span {
     font-weight: 600;
     font-size: 10px;
     line-height: 15px;
 }
 
-#logo2{
+#logo2 {
     position: absolute;
     width: 31.72px;
     height: 23px;
     right: 40px;
     top: 860px;
 }
-
-
-

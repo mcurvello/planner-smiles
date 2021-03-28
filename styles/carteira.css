@@ -1,18 +1,18 @@
-.containerA p{
+.containerA p {
     width: 535px;
     height: 158px;
-    left: 98px;
-    top: 246px;
+    left: 150px;
+    top: 200px;
 }
 
-.containerA span{
+.containerA span {
     height: 92px;
-    left: 98px;
+    left: 150;
     top: 359px;
     font-size: 20px;
 }
 
-#botao{
+#botao {
     left: 98px;
     top: 474px;
 }
@@ -25,7 +25,9 @@
     margin-right: 40px;
 }
 
-#home, #planos, #loja {
+#home,
+#planos,
+#loja {
     color: var(--text);
 }
 
@@ -37,14 +39,14 @@
     border-bottom: 3px solid var(--orange);
 }
 
-#divMenu div span{
+#divMenu div span {
     color: var(--text);
     font-weight: bold;
     font-size: 19px;
     line-height: 29px;
 }
 
-#divCarteira{
+#divCarteira {
     position: absolute;
     height: 45px;
     width: 680px;
@@ -55,40 +57,40 @@
     justify-content: space-between;
 }
 
-#tituloCarteira{
+#tituloCarteira {
     display: inline-block;
     align-items: center;
     align-content: space-between;
 }
 
-#divCarteira p{
+#divCarteira p {
     font-family: Prompt;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
-
     color: var(--text);
 }
-#milhas{
+
+#milhas {
     width: 150px;
     height: 21px;
     display: block;
 }
 
-#quantMilhas{
+#quantMilhas {
     position: absolute;
     width: 90px;
     height: 19.2px;
-    top: 40px;    
+    top: 40px;
 }
 
-#milhas span img{
+#milhas span img {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#milhas span{
+#milhas span {
     position: absolute;
     display: flex;
     font-family: Prompt;
@@ -96,11 +98,10 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
-
     color: rgba(134, 134, 134, 0.48);
 }
 
-#cartao{
+#cartao {
     position: absolute;
     width: 389px;
     height: 247px;
@@ -108,7 +109,7 @@
     top: 216px;
 }
 
-#botao2{
+#botao2 {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -118,20 +119,17 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-
     position: absolute;
     width: 416px;
     height: 56px;
     right: 135px;
     top: 475px;
-
     background: var(--orange);
     border-radius: 7px;
-
     cursor: pointer;
 }
-    
-#divMetas{
+
+#divMetas {
     position: absolute;
     width: 745px;
     height: 270px;
@@ -139,27 +137,26 @@
     top: 570px;
 }
 
-#divMetas div{
+#divMetas div {
     display: inline-flex;
     align-items: center;
 }
 
-#divMetas p{
+#divMetas p {
     font-family: Prompt;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
-
     color: var(--text);
 }
 
-#divMetas img{
+#divMetas img {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#divMetas span{
+#divMetas span {
     font-weight: 600;
     font-size: 10px;
     line-height: 15px;

@@ -1,23 +1,24 @@
-#background{
+#background {
     height: 100%;
     top: 0;
 }
 
-#header{
+#header {
     padding: 0;
     width: 1440px;
     align-content: center;
 }
 
-#header .perfil{
+#header .perfil {
     position: absolute;
     width: 290px;
     height: 290px;
     left: 131px;
     top: 315px;
+    border-radius: 50%;
 }
 
-#header .logo{
+#header .logo {
     position: absolute;
     width: 120.86px;
     height: 81px;
@@ -33,7 +34,9 @@
     margin-right: 40px;
 }
 
-#carteira, #planos, #loja {
+#carteira,
+#planos,
+#loja {
     color: var(--white);
 }
 
@@ -45,36 +48,33 @@
     border-bottom: 3px solid var(--white);
 }
 
-#divMenu div span{
+#divMenu div span {
     color: var(--white);
     font-weight: bold;
     font-size: 19px;
     line-height: 29px;
 }
 
-#header p{
+#header p {
     position: absolute;
     width: 540px;
     height: 106px;
     left: 750px;
     top: 232px;
-
     font-family: Prompt;
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
     line-height: 106.2%;
-
     color: var(--white);
 }
 
-#header span{
+#header span {
     position: absolute;
     width: 518px;
     height: 69px;
     left: 750px;
     top: 349px;
-
     font-family: Prompt;
     font-style: normal;
     font-weight: normal;
@@ -83,7 +83,7 @@
     color: var(--white);
 }
 
-#header button{
+#header button {
     position: absolute;
     width: 314px;
     height: 56px;
@@ -103,11 +103,10 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-
     color: var(--white);
 }
 
-#perfil{
+#perfil {
     position: absolute;
     width: 800px;
     height: 274px;
@@ -115,7 +114,7 @@
     top: 590px;
 }
 
-#pacotes{
+#pacotes {
     position: absolute;
     width: 1167.14px;
     height: 444px;
@@ -123,7 +122,7 @@
     top: 920px;
 }
 
-#metas{
+#metas {
     position: absolute;
     width: 1167px;
     height: 874.28px;
@@ -131,7 +130,7 @@
     top: 1440px;
 }
 
-#intercambio{
+#intercambio {
     position: absolute;
     width: 1133px;
     height: 437px;
@@ -139,7 +138,7 @@
     top: 2370px;
 }
 
-#amigos{
+#amigos {
     position: absolute;
     width: 1063px;
     height: 504px;
@@ -147,7 +146,7 @@
     top: 2890px;
 }
 
-#experience360{
+#experience360 {
     position: absolute;
     width: 1063px;
     height: 504px;
