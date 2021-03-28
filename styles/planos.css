@@ -1,0 +1,264 @@
+.containerA p{
+    width: 535px;
+    height: 158px;
+    left: 98px;
+    top: 246px;
+}
+
+.containerA span{
+    height: 92px;
+    left: 98px;
+    top: 359px;
+    font-size: 20px;
+}
+
+#botao{
+    left: 98px;
+    top: 474px;
+}
+
+#menu ul li a {
+    padding: 2px 10 px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+#home, #carteira, #loja {
+    color: var(--text);
+}
+
+#planos {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    border-bottom: 3px solid var(--orange);
+}
+
+#divMenu div span{
+    color: var(--text);
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+}
+
+#divPlanos{
+    position: absolute;
+    height: 260px;
+    width: 680px;
+    left: 755px;
+    top: 100px;
+    display: block;
+}
+
+#divPlanos p{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--text);
+}
+
+#divPlanos .planos{
+    position: absolute;
+    display: flex;
+    width: 680px;
+    height: 230px;
+    top: 20px;
+}
+
+#divPlanos .planos img{
+    height: 120%;
+}
+
+#tituloValores{
+    position: absolute;
+    width: 200px;
+    height: 42px;
+    right: 30px;
+    top: 395px;
+    display: flex;
+    justify-content: center;
+}
+
+#tituloValores p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#valores{
+    position: absolute;
+    width: 200px;
+    height: 42px;
+    right: 30px;
+    top: 420px;
+    display: flex;
+    align-content: bottom;
+    justify-content: center;
+    background: linear-gradient(103.66deg, rgba(240, 240, 240, 0.6) 21.28%, rgba(209, 209, 209, 0.6) 105%);
+    border-radius: 30px;
+    box-shadow: inset 1px 4px 10px rgba(0, 0, 0, 0.15);
+    
+}
+
+#valores .milhas{
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#valores .milhas p{
+    font-size: 18px;
+}
+
+#valores .milhas span{
+    font-size: 12px;
+}
+
+#valores .milhas img{
+    margin-right: 4px;
+}
+
+#valores .cash{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#valores .cash p{
+    font-size: 18px;
+}
+
+#valores .cash span{
+    font-size: 12px;
+}
+
+#valores .cash img{
+    margin-right: 4px;
+}
+
+#valores .separador{
+    width: 1px;
+    height: 34px;
+    background: #c3c3c3;
+    margin-top: 5px;
+}
+
+#premium {
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    left: 755px;
+    top: 380px;
+    
+}
+
+#premium h1{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--text);
+}
+
+#desconto{
+    width: 163px;
+    height: 25px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--white);
+    margin-bottom: 20px;
+    border-radius: 34px;
+    background: var(--orange);
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+#premium p{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.7px;
+    line-height: 30px;
+    color: var(--orange);
+}
+
+#botao2{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    position: absolute;
+    width: 416px;
+    height: 56px;
+    right: 133px;
+    top: 700px;
+
+    background: var(--orange);
+    border-radius: 7px;
+
+    cursor: pointer;
+}
+    
+#botao3{
+    border: none;
+    color: var(--orange);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    position: absolute;
+    width: 416px;
+    height: 56px;
+    right: 133px;
+    top: 760px;
+
+    background: var(--white);
+    border-radius: 7px;
+    border: 4px solid var(--orange);
+    cursor: pointer;
+}
+
+#footer{
+    position: absolute;
+    top: 830px;
+    right: 133px;
+    width: 416px;
+    height: 60px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 121.2%;
+    color: #c4c4c4;
+    display: inline-flex;
+
+}
+
+#footer img{
+    width: 27px;
+    height: 27px;
+    margin-right: 14px;
+}

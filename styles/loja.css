@@ -1,0 +1,340 @@
+#background{
+    height: 100%;
+    top: 0;
+}
+
+.container{
+    height: 2890px;
+}
+
+.containerA p{
+    width: 535px;
+    height: 158px;
+    left: 98px;
+    top: 246px;
+}
+
+.containerA span{
+    height: 92px;
+    left: 98px;
+    top: 359px;
+    font-size: 20px;
+}
+
+#cartao-gol{
+    position: absolute;
+    width: 406px;
+    height: 257.98px;
+    left: 130.09px;
+    top: 540px;
+}
+
+#menu ul li a {
+    padding: 2px 10 px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+#home, #carteira, #planos {
+    color: var(--text);
+}
+
+#loja {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    border-bottom: 3px solid var(--orange);
+}
+
+.container h6{
+    position: absolute;
+    width: 443px;
+    height: 24px;
+    left: 100px;
+    top: 2750px;
+
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.45);
+}
+
+#divLoja{
+    position: absolute;
+    height: 50px;
+    width: 680px;
+    left: 755px;
+    top: 100px;
+    display: block;
+}
+
+#divLoja p{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--text);
+}
+
+#passagens {
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    left: 755px;
+    top: 160px;
+    
+}
+
+#passagens h1{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--text);
+}
+
+#divInput{
+    display: inline-flex;
+}
+
+#destino{
+    position: absolute;
+    width: 243px;
+    height: 56px;
+    top: 50px;
+    left: 70px;
+    border: 2px solid rgba(134, 134, 134, 0.5);
+    border-radius: 63px;
+}
+
+#txtDestino{
+    float: left;
+    width: 300px;
+    height: 30px;
+    left: 809px;
+    top: 100px;
+    background-color:transparent;
+    margin-top: 12px;
+    margin-left: 19px;
+    font-style: normal;
+    font-size:20px;
+    font-weight: 600;
+    line-height: 30px;
+    border:none;
+    color: rgba(134, 134, 134, 0.5);
+}
+#data{
+    position: absolute;
+    width: 243px;
+    height: 56px;
+    left: 340px;
+    top: 50px;
+    border: 2px solid rgba(134, 134, 134, 0.5);
+    border-radius: 63px;
+}
+
+#txtData{
+    float: left;
+    width: 300px;
+    height: 30px;
+    left: 809px;
+    top: 137px;
+    background-color:transparent;
+    margin-top: 12px;
+    margin-left: 19px;
+    font-style: normal;
+    font-size:20px;
+    font-weight: 600;
+    line-height: 30px;
+    border:none;
+    color: rgba(134, 134, 134, 0.5);
+}
+
+#cartao-passagens{
+    position: absolute;
+    top: 295px;
+    left: 840px;
+}
+
+#botao2{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    position: absolute;
+    width: 280px;
+    height: 56px;
+    right: 220px;
+    top: 560px;
+
+    background: var(--orange);
+    border-radius: 7px;
+
+    cursor: pointer;
+}
+
+    
+#botao3{
+    border: none;
+    color: var(--orange);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    position: absolute;
+    width: 280px;
+    height: 56px;
+    right: 220px;
+    top: 630px;
+
+    background: var(--white);
+    border-radius: 7px;
+    border: 4px solid var(--orange);
+    cursor: pointer;
+}
+
+#pacotes{
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    left: 755px;
+    top: 740px;
+}
+
+#pacotes h1{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--text);
+}
+
+#navbar {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+#figuras{
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}
+
+#logo2{
+    position: absolute;
+    width: 31.72px;
+    height: 23px;
+    right: 40px;
+}
+
+#hospedagem{
+    position: absolute;
+    width: 745px;
+    height: 270px;
+    left: 745px;
+    top: 1400px;
+}
+
+#hospedagem div{
+    display: inline-flex;
+    align-items: center;
+}
+
+#hospedagem p{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--text);
+}
+
+#hospedagem img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#hospedagem span{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#hospedagens{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+
+
+#alugar{
+    position: absolute;
+    width: 745px;
+    height: 270px;
+    left: 10px;
+    top: 560px;
+}
+
+#alugar div{
+    display: inline-flex;
+    align-items: center;
+}
+
+#alugar p{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--text);
+}
+
+#alugar img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#alugar span{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#carros{
+    position: absolute;
+    top: 190px;
+    left: 120px;
+}
+
+#logo2{
+    position: absolute;
+    width: 31.72px;
+    height: 23px;
+    left: 570px;
+    top: 860px;
+}

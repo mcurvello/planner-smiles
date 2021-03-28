@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Prompt";
+    font-size: 14px;
+}
+
+:root{
+    --white:#fff;
+    --background:#fcfcfc;
+    --text: #868686;
+    --text-highlight: #eb7f02;
+    --orange: #EB7F02;
+}
+
+body{
+    width: 100%;
+    min-width: 100vh;
+    background: var(--background);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerA{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+    background-size: cover;
+}
+
+.containerA p{
+    position: absolute;
+    width: 515px;
+    height: 106px;
+    left: 100px;
+    top: 232px;
+
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 106.2%;
+
+    color: var(--white);
+}
+
+.containerA span{
+    position: absolute;
+    width: 518px;
+    height: 46px;
+    left: 100px;
+    top: 349px;
+
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 116.2%;
+
+    color: var(--white);
+}
+
+.container h6{
+    position: absolute;
+    width: 443px;
+    height: 24px;
+    left: 100px;
+    bottom: 23px;
+
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.45);
+}
+
+#background{
+    height: 100vh;
+    width: 100vw;
+}
+
+#logo{
+    position: absolute;
+    width: 120.86px;
+    height: 81px;
+    left: 90px;
+    top: 69px;
+}
+
+#botao{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    position: absolute;
+    width: 314px;
+    height: 56px;
+    left: 101px;
+    top: 419px;
+
+    background: var(--orange);
+    border-radius: 7px;
+
+    cursor: pointer;
+}
+
+#botaoLogin{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    right: 718px;
+    top: 650px;
+
+    background: var(--orange);
+    border-radius: 34px 0 0 34px;
+
+    cursor: pointer;
+}
+
+#botaoLogin img{
+    margin-left: 10px
+}
+
+.containerB{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 720px;
+    min-height: 34rem;
+    height: 900px;
+    font: 400 1rem "Prompt", sans-serif;
+}
+
+#divMenu{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    width: 519px;
+    height: 37px;
+    right: 1px;
+    top: 30px;
+}
+
+#menu{
+    display: inline-block;
+}
+
+#menu ul {
+    list-style: none;  
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#divMenu div{
+    display: flex;
+    align-items: center;
+}
+
+#divMenu img{
+    margin-left: 10px;
+}
+
+#divPesquisar{
+    position: absolute;
+    width: 519px;
+    height: 56px;
+    top: 100px;
+    border: 2px solid rgba(134, 134, 134, 0.5);
+    border-radius: 63px;
+}
+
+#divPesquisar img{
+    float: left;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+#txtPesquisar{
+    float: left;
+    width: 300px;
+    height: 30px;
+    left: 809px;
+    top: 137px;
+    background-color:transparent;
+    margin-top: 12px;
+    margin-left: 19px;
+    font-style: normal;
+    font-size:20px;
+    font-weight: 600;
+    line-height: 30px;
+    border:none;
+    color: rgba(134, 134, 134, 0.5);
+}
+
+#divDestino{
+    position: absolute;
+    height: 270px;
+    width: 720px;
+    left: 744px;
+    top: 200px;
+}
+
+#tituloDestino{
+    display: inline-flex;
+    align-items: center;
+}
+
+#divDestino p{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--text);
+}
+
+#divDestino img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#divDestino span{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#divHospedagem{
+    position: absolute;
+    width: 745px;
+    height: 270px;
+    left: 745px;
+    top: 500px;
+}
+
+#divHospedagem div{
+    display: inline-flex;
+    align-items: center;
+}
+
+#divHospedagem p{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--text);
+}
+
+#divHospedagem img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#divHospedagem span{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#logo2{
+    position: absolute;
+    width: 31.72px;
+    height: 23px;
+    right: 40px;
+    top: 860px;
+}
+
+
+

@@ -1,0 +1,16 @@
+#menu ul li a {
+    padding: 2px;
+    display: inline-block;
+    color: var(--text);
+    text-decoration: none;
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+#menu ul li a:hover{
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    border-bottom: 3px solid var(--orange);
+}
